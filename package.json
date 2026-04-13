@@ -1,0 +1,9 @@
+{
+  "name": "kalahari-original",
+  "version": "1.0.0",
+  "description": "Kalahari Original - Corporate Branding, Embroidery & Workwear Website",
+  "scripts": {
+    "build": "mkdir -p dist && cp index.html styles.css script.js dist/",
+    "start": "npx serve dist"
+  }
+}
